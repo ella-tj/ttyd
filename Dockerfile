@@ -9,7 +9,12 @@ ADD https://github.com/krallin/tini/releases/download/v0.18.0/tini /sbin/tini
 RUN chmod +x /sbin/tini
 
 RUN apt-get update; apt-get install -y --no-install-recommends \
-        libnss3 \
+        ca-certificates \
+	xvfb \
+	libgtk2.0-0 \
+	psmisc \
+	chromium-bsu \
+	libnss3 \
 	libasound2 \
 	python3 \
 	python3-setuptools \
