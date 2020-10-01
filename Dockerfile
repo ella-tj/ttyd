@@ -13,7 +13,7 @@ RUN apt-get update; apt-get install -y --no-install-recommends \
 	xvfb \
 	libgtk2.0-0 \
 	psmisc \
-	chromium-bsu \
+	chromium-browser \
 	libnss3 \
 	libasound2 \
 	python3 \
